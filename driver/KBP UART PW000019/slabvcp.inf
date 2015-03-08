@@ -26,10 +26,12 @@ CatalogFile=slabvcp.cat
 %MfgName%=SiLabs, NTamd64
 
 [SiLabs]
+%USB\VID_10C4&PID_EA60.DeviceDesc%=silabser.Dev, USB\VID_10C4&PID_EA60
 %USB\VID_0168&PID_2001.DeviceDesc%=silabser.Dev, USB\VID_0168&PID_2001
 
 
 [SiLabs.NTamd64]
+%USB\VID_10C4&PID_EA60.DeviceDesc%=silabser.Dev, USB\VID_10C4&PID_EA60
 %USB\VID_0168&PID_2001.DeviceDesc%=silabser.Dev, USB\VID_0168&PID_2001
 
 [silabser.Dev.NT]
@@ -124,6 +126,7 @@ Provider="Silicon Laboratories"
 MfgName="Silicon Laboratories"
 Disk_Description="Silicon Labs USB to UART Bridge Installation Disk"
 USB\VID_0168&PID_2001.DeviceDesc="Coolmakers UART PW000019"
+USB\VID_10C4&PID_EA60.DeviceDesc="Coolmakers UART PW000019"
 silabser.SvcDesc="Silicon Labs CP210x USB to UART Bridge Driver"
 silabenm.SvcDesc="Silicon Labs CP210x USB to UART Bridge Serial Port Enumerator Driver"
 PortsClassName = "Ports (COM & LPT)"
